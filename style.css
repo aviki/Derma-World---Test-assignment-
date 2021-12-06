@@ -186,7 +186,7 @@ section{
 .container.hero-section .text{
     position: absolute;
     z-index: 2;
-    margin: 30px 1rem;
+    margin: 1rem 5rem;
     width: 400px;
 }
 
@@ -251,6 +251,33 @@ section{
     padding: 4rem 5.5rem;
 }
 
+
+
+/* --------------- FOURTH SECTION -------------------------- */
+
+.fourth-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 70px 50px;
+}
+
+.fourth-section button {
+    
+    background-color: var(--bright-plum-secondary);
+    padding: 16px 52px;
+    border-radius: 50px;
+    display: inline;
+    color: var(--white);
+    border-style: none;
+    font-size: 15px;
+}
+
+.fourth-section sub {
+    display: block;
+    margin-top: 1.5rem;
+}
 
 
 /* --------------- FOOTER ------------------------------- */
