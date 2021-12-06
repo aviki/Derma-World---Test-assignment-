@@ -156,9 +156,6 @@ section{
     display: flex;
     flex-direction: row;
 }
-.container:nth-child(even){
-    background-color: var(--gray-2);
-}
 
 .hero-section img{
     margin-left: auto;
@@ -207,6 +204,11 @@ section{
 
 /* --------------- SECOND SECTION ------------------------------- */
 
+.container:nth-child(even){
+    background-color: var(--light-grey-1);
+}
+
+
 .second-section{
     display: flex;
     flex-direction: row;
@@ -218,6 +220,37 @@ section{
     margin-top: 55px;
     width: 500px;
 }
+
+
+/* --------------- THIRD SECTION ------------------------------- */
+
+.advantages{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.text a {
+    color: var(--bright-plum-secondary);
+    font-weight: bold;
+}
+
+.container h3{
+    line-height: 1.5rem;
+    margin-bottom: 1rem;
+    color: var(--spruce-primary);
+}
+
+.container p {
+    margin-bottom: 2rem;
+}
+
+.third-section {
+    padding: 4rem 5.5rem;
+}
+
 
 
 /* --------------- FOOTER ------------------------------- */
