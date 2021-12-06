@@ -177,7 +177,7 @@ section{
 }
 
 .container h2, .container h3{
-    color: var(--blue-text);
+    color: var(--spruce-primary);
     line-height: 2rem;
     margin-bottom: 2rem;
 }
@@ -280,6 +280,48 @@ section{
 }
 
 
+/* --------------- FIFTH SECTION --------------------------- */
+
+.fifth-section{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding: 70px 50px;
+
+}
+
+.guides-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.guide{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    background-color: var(--light-grey-1);
+    margin: auto;
+    margin-bottom: 2rem;
+
+}
+
+.guide .text{
+    width: 550px;
+    max-width: 100%;
+    padding: 2rem;
+}
+
+.fifth-section h2 {
+    color: var(--spruce-primary);
+}
+
+.fifth-section>h2{
+    padding-left: 4.5rem;
+}
+
+
 /* --------------- FOOTER ------------------------------- */
 
 footer{
@@ -310,7 +352,7 @@ footer .visual{
 }
 
 .footer-links a{
-    color: var(--gray-1);
+    color: var(--light-grey-1);
     font-weight: normal;
     border-right: 1px solid white;
     padding: 0 18px;
