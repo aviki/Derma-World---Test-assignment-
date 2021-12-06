@@ -6,7 +6,7 @@
     --light-grey-1: #EEEEEE;
     --light-grey-2: #E6E7E8;
     --dark-grey: #575757;
-    --dark-blue: #09101B; 
+    --dark-blue: #09111f; 
     --white: #FFFFFF;
     --black: #000000; 
 }
@@ -204,6 +204,21 @@ section{
     height: 405px;
     background: linear-gradient(90deg, rgba(9,16,27,1) 0%, rgba(9,16,27,1)20%, rgba(9,16,27,0)40%, rgba(9,16,27,0)100%)
 }
+
+/* --------------- SECOND SECTION ------------------------------- */
+
+.second-section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.second-section .text{
+    margin-top: 55px;
+    width: 500px;
+}
+
 
 /* --------------- FOOTER ------------------------------- */
 
