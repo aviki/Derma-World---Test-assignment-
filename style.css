@@ -205,3 +205,59 @@ section{
     background: linear-gradient(90deg, rgba(9,16,27,1) 0%, rgba(9,16,27,1)20%, rgba(9,16,27,0)40%, rgba(9,16,27,0)100%)
 }
 
+/* --------------- FOOTER ------------------------------- */
+
+footer{
+    background-color: var(--spruce-primary);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 12px;
+    text-align: right;
+    padding: 1rem;
+}
+
+footer .visual{
+    margin: auto;
+    margin-bottom: 3rem;
+}
+
+.footer-links{
+    margin: 0;
+    margin-top: auto;
+    padding: 1rem;
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    height: max-content;
+}
+
+.footer-links a{
+    color: var(--gray-1);
+    font-weight: normal;
+    border-right: 1px solid white;
+    padding: 0 18px;
+}
+.footer-links  a:last-child{
+    border: none;
+}
+
+footer .copyright-text{
+    margin: auto;
+    width: max-content;
+    line-height: 16px;
+}
+footer .copyright-text a{
+    color: white;
+    text-decoration: underline;
+    padding: 0;
+}
+footer .copyright-text p{
+    width: 200px;
+    line-height: 26px;
+    margin-bottom: 2rem;
+}
+
+
