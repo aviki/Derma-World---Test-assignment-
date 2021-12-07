@@ -359,6 +359,28 @@ section{
     width: 230px;
 }
 
+/* --------------- REFERENCES SECTION ------------------------------- */
+
+.references {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: var(--light-grey-2);
+}
+
+.references img {
+    margin-left: 120px;
+    margin-top: 1rem;
+    padding-bottom: 1rem;
+    
+}
+
+.references>h3 {
+    padding-left: 1rem;
+    padding-top: 1rem;
+    margin-top: 1rem;
+}
+
 /* --------------- FOOTER ------------------------------- */
 
 footer{
