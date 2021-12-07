@@ -322,6 +322,43 @@ section{
 }
 
 
+/* --------------- SIXTH SECTION - VIDEOS ---------------- */
+.sixth-section{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 50px 70px;
+}
+
+.videos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.container-title {
+    display: flex;
+    flex-direction: column;
+    margin-left: 4rem;
+    margin-bottom: 2rem;
+}
+
+.video-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.video-container .visual{
+    margin: 0 1.5rem 3rem 0;
+}
+
+.video-container .text{
+    width: 230px;
+}
+
 /* --------------- FOOTER ------------------------------- */
 
 footer{
