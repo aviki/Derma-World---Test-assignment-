@@ -99,6 +99,7 @@
   .subnav-content {
     display: none;
     position: absolute;
+    top: 160px;
     left: 0;
     background-color: var(--light-grey-2);
     width: 100%;
@@ -161,10 +162,6 @@ section{
     flex-direction: row;
 }
 
-.hero-section img{
-    margin-left: auto;
-    }
-
 .hero-section{
     position: relative;
     padding: 0;
@@ -179,7 +176,7 @@ section{
 .hero-img{
     background-image: url(./img/hero.png);
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: cover;
     height: 60vh;
     width: 100%;
     background-position: right;
@@ -217,7 +214,6 @@ section{
     position: absolute;
     z-index: 1;
     height: 405px;
-    background: linear-gradient(90deg, rgba(9,16,27,1) 0%, rgba(9,16,27,1)20%, rgba(9,16,27,0)40%, rgba(9,16,27,0)100%)
 }
 
 /* --------------- SECOND SECTION ------------------------------- */
@@ -543,8 +539,8 @@ footer .copyright-text p{
     .hero-img {
        background-image: url(./img/hero.png);
        background-repeat: no-repeat;
-       background-size: auto;
-       height: 40vh;
+       background-size: cover;
+       min-height: 40vh;
        background-position: center;
 
     }
