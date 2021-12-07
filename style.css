@@ -245,6 +245,18 @@ section{
     text-align: center;
 }
 
+.advantage {
+    width: 250px;
+    max-width: 100%;
+    margin: 1rem;
+}
+
+.advantage .text {
+    width: 250px;
+    max-width: 100%; 
+}
+
+
 .text a {
     color: var(--bright-plum-secondary);
     font-weight: bold;
@@ -261,7 +273,7 @@ section{
 }
 
 .third-section {
-    padding: 4rem 5.5rem;
+    padding: 4rem 5rem;
 }
 
 
@@ -348,7 +360,7 @@ section{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .container-title {
@@ -365,11 +377,12 @@ section{
 }
 
 .video-container .visual{
-    margin: 0 1.5rem 3rem 0;
+    width: 60%;
+    margin: 1rem;
 }
 
 .video-container .text{
-    width: 230px;
+    width: 200px;
 }
 
 /* --------------- REFERENCES SECTION ------------------------------- */
@@ -486,7 +499,6 @@ footer .copyright-text p{
     }
 
     .subnav-content {
-        display: none;
         visibility: hidden;
     }
 
