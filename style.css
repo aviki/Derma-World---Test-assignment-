@@ -485,6 +485,11 @@ footer .copyright-text p{
         transition: all 0.3s ease;
     }
 
+    .subnav-content {
+        display: none;
+        visibility: hidden;
+    }
+
     .navbar {
         position: absolute;
         right: 0px;
@@ -541,7 +546,7 @@ footer .copyright-text p{
        background-repeat: no-repeat;
        background-size: cover;
        min-height: 40vh;
-       background-position: center;
+       background-position: left;
 
     }
     
@@ -554,6 +559,7 @@ footer .copyright-text p{
         width: 100%;
         z-index: 2;
         margin: 1rem;
+        padding-right: 6rem;
     }
 
     .container h3 {
